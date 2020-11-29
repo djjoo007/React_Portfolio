@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/joologo.png"/></a>
+            <!-- <img src="img/joologo.png" alt=""> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Information</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>No SQL - MongoDB</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Workout Tracker</p>
+        <img src="img/fitnesstracker.png" alt="" class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <p class="portfolio_text">This application is a Workout Tracker.
+            When the user loads the page, users are given the option to create a new workout or continue with their last workout.
+            The user are able to add exercises to a previous workout plan.  Add new exercises to a new workout plan.  View the combined weight of multiple exercises on the stats page.</p>
+
+            <p class="portfolio_text">This application utilizes NoSQL, MongoDB, Object-document mapping, Mongoose.js, CRUD, Node.js</p>
+
+        <ul class="portfolio_link">
+            <li>
+                <a href="https://github.com/djjoo007/Workout_Tracker.git">Link to GitHub</a>
+            </li>
+            <li>
+                <a href="https://calm-bastion-11804.herokuapp.com/">Link to Heroku</a>
+            </li>
+        </ul>
+        <img src="img/fitnesstracker.png" alt="">
+        
+
+    </div>
+            
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto: jooheredia@email.com" class="footer__link">jooheredia@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/djjoo007"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/joo-heredia/"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+        <script src="js/index.js"></script>
+</body>
+</html>
