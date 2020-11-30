@@ -94,10 +94,9 @@ class Home extends Component{
                     </Link>
         
                     {/* <!-- Portfolio item 02 --> */}
-                    {/* <a href="portfolio-item2.html" className="portfolio__item">
+                    <Link to="/portfolio2" className="portfolio__item">
                         <img src="img/vent.png" alt="" className="portfolio__img"></img>
-                    </a> 
-         */}
+                    </Link>
                 </div>
             </section>
         

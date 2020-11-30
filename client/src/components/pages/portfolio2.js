@@ -1,26 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+class Portfolio2 extends Component{
+    render() {
+        return(
+<div>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/joologo.png"/></a>
-            <!-- <img src="img/joologo.png" alt=""> -->
+        <Link to="/"><img src="img/joologo.png"/></Link>
+            {/* <!-- <img src="img/joologo.png" alt=""> --> */}
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><Link to="/" class="nav__link">Home</Link></li>
                 <li class="nav__item"><a href="index.html#services" class="nav__link">My Information</a></li>
                 <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
                 <li class="nav__item"><a href="index.html#work" class="nav__link">My Portfolio</a></li>
@@ -34,7 +29,7 @@
         </h1>
         <p class="section__subtitle section__subtitle--intro">Vent 
             Air Quality App</p>
-        <img src="img/vent.png" alt="" class="intro__img">
+        <img src="img/vent.png" alt="" class="intro__img"></img>
     </section>
     
     <div class="portfolio-item-individual">
@@ -50,12 +45,12 @@
                 <a href="https://vent-airquality-tracker.herokuapp.com/">Link to Heroku</a>
             </li>
         </ul>
-        <img src="img/vent.png" alt="">
+        <img src="img/vent.png" alt=""></img>
         
 
     </div>
             
-    <!-- Footer -->
+    {/* <!-- Footer --> */}
     <footer class="footer">
         <a href="mailto: jooheredia@email.com" class="footer__link">jooheredia@gmail.com</a>
         <ul class="social-list">
@@ -67,5 +62,8 @@
     </footer>
 
         <script src="js/index.js"></script>
-</body>
-</html>
+</div>
+)
+}
+}
+export default Portfolio2;
