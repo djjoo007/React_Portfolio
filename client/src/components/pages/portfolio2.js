@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Sidebar from './sidebar.js';
 
 class Portfolio2 extends Component{
     render() {
@@ -10,6 +11,10 @@ class Portfolio2 extends Component{
         <Link to="/"><img src="img/joologo.png"/></Link>
             {/* <!-- <img src="img/joologo.png" alt=""> --> */}
         </div>
+        <Sidebar
+              pageWrapId={"page-wrap"}
+              outerContainerId={"outer-container"}>
+        </Sidebar>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>

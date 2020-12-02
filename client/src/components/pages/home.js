@@ -11,6 +11,10 @@ class Home extends Component{
                     <a href="#home"><img src="img/joologo.png"/></a>
                     {/* <!-- <img src="img/joologo.png" alt=""> --> */}
                 </div>
+                <Sidebar
+              pageWrapId={"page-wrap"}
+              outerContainerId={"outer-container"}>
+              </Sidebar>
                 <button className="nav-toggle" aria-label="toggle navigation">
                     <span className="hamburger"></span>
                 </button>
