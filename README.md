@@ -6,6 +6,6 @@ This portfolio shows my contact information including links to my github and lin
 # Link to Deployed Page
 https://djjoo007.github.io/React_Portfolio/
 
-## Screenshot
+# Screenshot
 ![](/public/img/portfolio.png)
 
