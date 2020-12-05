@@ -7,5 +7,5 @@ This portfolio shows my contact information including links to my github and lin
 https://djjoo007.github.io/React_Portfolio/
 
 ## Screenshot
-![](/client/public/img/portfolio.png)
+![](/public/img/portfolio.png)
 
