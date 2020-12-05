@@ -38,11 +38,11 @@ class Sidebar extends React.Component{
                 <Link to="/#work" className={window.location.pathname === "/#work" ? "nav_link active" : "nav_link"}>My Portfolio
                 </Link>
               </li>
-{/* 
-              <li className="nav__item">
-                <a href="#services" className="nav__link">My Information</a></li>
-                        <li className="nav__item"><a href="#about" className="nav__link">About me</a></li>
-                        <li className="nav__item"><a href="#work" className="nav__link">My Portfolio</a></li> */}
+
+                {/* <li class="nav__item"><Link to="/" class="nav__link">Home</Link></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Information</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Portfolio</a></li> */}
                     </ul>
                 </nav>
 

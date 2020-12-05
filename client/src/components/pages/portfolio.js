@@ -12,10 +12,10 @@ class Portfolio extends Component{
             <Link to="/"><img src="img/joologo.png"/></Link>
             {/* <!-- <img src="img/joologo.png" alt=""> --> */}
         </div>
-        <Sidebar
+        {/* <Sidebar
               pageWrapId={"page-wrap"}
               outerContainerId={"outer-container"}>
-              </Sidebar>
+              </Sidebar> */}
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
