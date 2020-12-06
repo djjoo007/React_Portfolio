@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://djjoo007.github.io/React_Portfolio/",
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "react": "^16.6.3",
